@@ -1,14 +1,11 @@
 package com.moodAnalyzer;
+
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class MoodAnalyserTest {
-    MoodAnalyzer moodAnalyzer = null;
-    @Before
-    public void obgectCreation() {
-        moodAnalyzer = new MoodAnalyzer();
-    }
+
+
     @Test
 
     public void iAmin_SadMood_ShouldReturn_sad() {
