@@ -2,11 +2,6 @@ package com.moodAnalyzer;
 
 public class MoodAnalyzer {
 
-    private String sad;
-
-    public MoodAnalyzer() {
-
-    }
 
     public static String analyseMood(String message) {
         if (message.contains("sad"))
@@ -21,7 +16,6 @@ public class MoodAnalyzer {
         System.out.println(analyseMood(message));
     }
 
-    public String analyseMood() {
-        return sad;
-    }
+
+
 }
